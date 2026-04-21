@@ -1,0 +1,14 @@
+# Core IA
+langgraph
+langchain
+langchain-groq
+
+# Web Framework
+fastapi
+uvicorn
+streamlit
+
+# Utilidades
+python-dotenv # Chaves de API
+requests # Chamadas de API de clima
+pydantic # Validação de dados e do AgentState
