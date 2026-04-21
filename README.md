@@ -1,6 +1,6 @@
 # Agente de Itinerário Inteligente com LangGraph
 
-Este projeto foi desenvolvido como trabalho final para a disciplina de Agentes de IA. O sistema consiste em um agente capaz de planejar roteiros de viagem baseados na previsão do tempo real, utilizando uma lógica de grafos cíclicos para auto-correção.
+Este projeto foi desenvolvido como trabalho final para a disciplina de Agentes de IA e Processamento de Linguagem Natural. O sistema consiste em um agente capaz de planejar roteiros de viagem baseados na previsão do tempo real, utilizando uma lógica de grafos cíclicos para auto-correção.
 
 ## 🚀 Tecnologias Utilizadas
 - **LangGraph**: Orquestração do agente e controle de estado.
@@ -61,3 +61,8 @@ Neste log, é possível observar o agente identificando que o roteiro inicial co
 - **Clima Chuvoso**: Roteiro deve ser 100% focado em atividades indoor (museus, shoppings, teatros).
 - **Clima Ensolarado**: Roteiro deve focar em atividades ao ar livre (praias, parques, caminhadas).
 - **Validação Automática**: O agente revisa seu próprio trabalho por até 3 tentativas caso as regras não sejam atendidas.
+
+## 👥 Equipe
+**Alunos:** Paulo Renato Baliza Silva, Carlos Augusto da Silva Cabral e Eduardo Martins de Castro Souza  
+**Projeto desenvolvido para a disciplina de Processamento de Linguagem Natural**  
+**Pós-Graduação em Inteligência Artificial Aplicada — Instituto Federal de Goiás (IFG)**
