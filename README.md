@@ -63,6 +63,5 @@ Neste log, é possível observar o agente identificando que o roteiro inicial co
 - **Validação Automática**: O agente revisa seu próprio trabalho por até 3 tentativas caso as regras não sejam atendidas.
 
 ## 👥 Equipe
-**Alunos:** Paulo Renato Baliza Silva, Carlos Augusto da Silva Cabral e Eduardo Martins de Castro Souza  
-**Projeto desenvolvido para a disciplina de Processamento de Linguagem Natural**  
+**Alunos:** Paulo Renato Baliza Silva, Carlos Augusto da Silva Cabral e Eduardo Martins de Castro Souza    
 **Pós-Graduação em Inteligência Artificial Aplicada — Instituto Federal de Goiás (IFG)**
