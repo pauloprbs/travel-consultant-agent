@@ -19,7 +19,7 @@ O agente utiliza um `StateGraph` composto por três nós principais:
 ## 📈 Visualização do Grafo
 O fluxo de trabalho do agente pode ser visualizado abaixo, destacando o ciclo de correção entre o Validador e o Planejador:
 
-![Grafo do Agente](imgs/grafo.png)
+![Grafo do Agente](imgs/grafo.jpg)
 
 ## 🛠️ Como Executar
 1. Clone o repositório.
@@ -41,17 +41,19 @@ O fluxo de trabalho do agente pode ser visualizado abaixo, destacando o ciclo de
 ### Interface do Usuário (Streamlit)
 Abaixo, a interface demonstrando o planejamento para diferentes cenários:
 
-![Interface Principal](imgs/ui_screenshot.png)
+| Londres (Chuva) | Xique-Xique (Sol) |
+| :---: | :---: |
+| ![UI Londres](imgs/ui-londres.png) | ![UI Xique-Xique](imgs/ui-xique-xique.png) |
 
 ### Logs de Auto-Correção (Caso de Londres - Chuva)
 Neste log, é possível observar o agente identificando que o roteiro inicial continha atividades ao ar livre em um dia chuvoso, forçando uma segunda tentativa de planejamento:
 
-![Logs Londres](imgs/logs_londres.png)
+![Logs Londres](imgs/logs-londres.png)
 
 ### Planejamento de Sucesso (Caso de Xique-Xique - Sol)
 Exemplo de roteiro validado com sucesso na primeira tentativa para um dia ensolarado:
 
-![Logs Xique-Xique](imgs/logs_xique_xique.png)
+![Logs Xique-Xique](imgs/logs-xique-xique.png)
 
 ## 📝 Regras de Negócio Implementadas
 - **Clima Chuvoso**: Roteiro deve ser 100% focado em atividades indoor (museus, shoppings, teatros).
